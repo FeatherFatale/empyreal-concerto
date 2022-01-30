@@ -12,16 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 509282d12ba924a889ef515dbcda9822, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-=======
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
@@ -76,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f6945f43b268f247a2fae79f4b9abadb
     GuidInternal: 
-    m_lastTime: -8585580403143063361
+    m_lastTime: -8585580333415629882
     List:
     - name: Main
       guid: ef50ce2c30958243ab90ce7f0f7ca31e
@@ -104,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a505a1f59d91a740acd204da8974b38f
     GuidInternal: 
-    m_lastTime: -8585580403146024035
+    m_lastTime: -8585580333415679899
     List:
     - name: Stage_Music
       guid: 9bd5eb0f32d87340b5ed49db20c4417b
@@ -179,7 +169,6 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585580403143033349
     List: []
->>>>>>> parent of 6e17397 (fullscene polishups)
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
