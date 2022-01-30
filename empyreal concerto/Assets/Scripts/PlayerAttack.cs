@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    public Animator animator;
     private float timeBtwAttack;
     public float starTimeBtwAttack;
 
@@ -23,6 +24,7 @@ public class PlayerAttack : MonoBehaviour
                 Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(attackPos.position,new Vector2(attackRangeX,attackRangeY),0,whatIsEnemy);
                 for(int i =0; i < enemiesToDamage.Length; i++)
                 {
+                    animator.SetBool("isAttacking",true);
                     enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                     Debug.Log("hasAttacked");
                 }
@@ -31,6 +33,7 @@ public class PlayerAttack : MonoBehaviour
         }
         else
         {
+            animator.SetBool("isAttacking", false);
             timeBtwAttack -= Time.deltaTime;
         }
     }

@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8364110944731790204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.14, y: -0.25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.17, y: -0.25, z: 0}
+  m_LocalScale: {x: 2.325, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8364110945090248533}
   m_RootOrder: 2
@@ -122,7 +122,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8364110945090248535}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.22, y: 6.92, z: -1}
+  m_LocalPosition: {x: -13.09, y: 6.92, z: -1}
   m_LocalScale: {x: 0.531882, y: 0.531882, z: 0.531882}
   m_Children:
   - {fileID: 8364110944762730232}
@@ -301,14 +301,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f9e7d9ffaa19ed47ac469a728a32b60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 7957512862203023186}
   starTimeBtwAttack: 0.2
   attackPos: {fileID: 8364110944731790205}
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 64
-  attackRangeX: 3.28
-  attackRangeY: 3.71
-  damage: 20
+  attackRangeX: 5.68
+  attackRangeY: 4.57
+  damage: 100
 --- !u!95 &7957512862203023186
 Animator:
   serializedVersion: 3
