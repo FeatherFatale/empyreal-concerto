@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: f6945f43b268f247a2fae79f4b9abadb
     GuidInternal: 
-    m_lastTime: -8585580442414775808
-    List: []
+    m_lastTime: -8585580417864775808
+    List:
+    - name: Main
+      guid: ef50ce2c30958243ab90ce7f0f7ca31e
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f6945f43b268f247a2fae79f4b9abadb
+      - ElementName: Main
+        ObjectType: 7
+        guid: ef50ce2c30958243ab90ce7f0f7ca31e
+      Path: SoundBanks/Default Work Unit/Main
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a505a1f59d91a740acd204da8974b38f
     GuidInternal: 
-    m_lastTime: -8585580442414775808
-    List: []
+    m_lastTime: -8585580417864775808
+    List:
+    - name: Stage_Music
+      guid: 9bd5eb0f32d87340b5ed49db20c4417b
+      id: 2868363229
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a505a1f59d91a740acd204da8974b38f
+      - ElementName: Stage_Music
+        ObjectType: 3
+        guid: 9bd5eb0f32d87340b5ed49db20c4417b
+      Path: Events/Default Work Unit/Stage_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -138,9 +169,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585580442414775808
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 0200000003000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 1
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

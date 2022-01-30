@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AC7379C0-38B6-4EDF-979E-E74800D346C4}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{AC7379C0-38B6-4EDF-979E-E74800D346C4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AC7379C0-38B6-4EDF-979E-E74800D346C4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Notes" ID="{F0E9BC14-D430-44AF-9733-3618E84116EF}" ShortID="797079091"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
