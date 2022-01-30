@@ -143,8 +143,9 @@ GameObject:
   m_Component:
   - component: {fileID: 34822279}
   - component: {fileID: 34822278}
-  - component: {fileID: 34822277}
   - component: {fileID: 34822276}
+  - component: {fileID: 34822277}
+  - component: {fileID: 34822280}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -186,14 +187,20 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!81 &34822277
-AudioListener:
+--- !u!114 &34822277
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34822275}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1274375218}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
 --- !u!20 &34822278
 Camera:
   m_ObjectHideFlags: 0
@@ -252,6 +259,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &34822280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34822275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980701685}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
 --- !u!4 &36447025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8815414989397495797, guid: eedabb54919089f499a2e09971600b5d, type: 3}
@@ -8029,7 +8050,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.373494, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -8512,6 +8533,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!115 &1274375218
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 5
+  m_Script: 
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_ExecutionOrder: 0
+  m_ClassName: AkAudioListener
+  m_Namespace: 
 --- !u!4 &1305627773 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8815414989397495797, guid: eedabb54919089f499a2e09971600b5d, type: 3}
@@ -9386,8 +9421,8 @@ Transform:
   - {fileID: 2066869036}
   - {fileID: 1665834711}
   - {fileID: 1150598055}
-  - {fileID: 1019119686}
   - {fileID: 327024782}
+  - {fileID: 1019119686}
   - {fileID: 1875419056}
   - {fileID: 183609726}
   - {fileID: 411919348}
@@ -13480,6 +13515,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 483559ee33f861d4ba687e02aee843da, type: 3}
+--- !u!115 &1980701685
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 5
+  m_Script: 
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_ExecutionOrder: 0
+  m_ClassName: AkAudioListener
+  m_Namespace: 
 --- !u!4 &1993826226 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8815414989397495797, guid: eedabb54919089f499a2e09971600b5d, type: 3}
