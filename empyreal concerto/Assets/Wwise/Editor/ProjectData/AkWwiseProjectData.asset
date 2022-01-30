@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f6945f43b268f247a2fae79f4b9abadb
     GuidInternal: 
-    m_lastTime: -8585580370363777971
+    m_lastTime: -8585580333415629882
     List:
     - name: Main
       guid: ef50ce2c30958243ab90ce7f0f7ca31e
@@ -94,59 +94,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a505a1f59d91a740acd204da8974b38f
     GuidInternal: 
-    m_lastTime: -8585580370365772837
+    m_lastTime: -8585580333415679899
     List:
-    - name: Play_Slash
-      guid: b525dc89dc75724ea1e870697430a1e6
-      id: 4237055289
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a505a1f59d91a740acd204da8974b38f
-      - ElementName: Play_Slash
-        ObjectType: 3
-        guid: b525dc89dc75724ea1e870697430a1e6
-      Path: Events\Default Work Unit\Play_Slash
-      maxAttenuation: 0
-      maxDuration: 1.388614
-      minDuration: 0.702963
-    - name: Play_SlashEnemy
-      guid: 818a8bbbce6bd14980653041f1a046c6
-      id: 2262980731
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a505a1f59d91a740acd204da8974b38f
-      - ElementName: Play_SlashEnemy
-        ObjectType: 3
-        guid: 818a8bbbce6bd14980653041f1a046c6
-      Path: Events\Default Work Unit\Play_SlashEnemy
-      maxAttenuation: 0
-      maxDuration: 1.146876
-      minDuration: 1.092439
-    - name: Play_Wind
-      guid: a17426a427c5274586ac2f137ccdb0f5
-      id: 1020223172
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a505a1f59d91a740acd204da8974b38f
-      - ElementName: Play_Wind
-        ObjectType: 3
-        guid: a17426a427c5274586ac2f137ccdb0f5
-      Path: Events\Default Work Unit\Play_Wind
-      maxAttenuation: 0
-      maxDuration: 46.23077
-      minDuration: 46.23077
     - name: Stage_Music
       guid: 9bd5eb0f32d87340b5ed49db20c4417b
       id: 2868363229

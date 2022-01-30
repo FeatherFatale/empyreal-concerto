@@ -4,12 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{435F94F6-68B2-47F2-A2FA-E79F4B9ABADB}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{2CCE50EF-9530-4382-AB90-CE7F0F7CA31E}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Stage_Music" ID="{0FEBD59B-D832-4073-B5ED-49DB20C4417B}" WorkUnitID="{F5A105A5-919D-40A7-ACD2-04DA8974B38F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Wind" ID="{A42674A1-C527-4527-86AC-2F137CCDB0F5}" WorkUnitID="{F5A105A5-919D-40A7-ACD2-04DA8974B38F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SlashEnemy" ID="{BB8B8A81-6BCE-49D1-8065-3041F1A046C6}" WorkUnitID="{F5A105A5-919D-40A7-ACD2-04DA8974B38F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Slash" ID="{89DC25B5-75DC-4E72-A1E8-70697430A1E6}" WorkUnitID="{F5A105A5-919D-40A7-ACD2-04DA8974B38F}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

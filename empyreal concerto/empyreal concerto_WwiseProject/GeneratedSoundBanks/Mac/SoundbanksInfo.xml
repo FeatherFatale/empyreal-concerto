@@ -16,45 +16,10 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="768810681">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1077138683">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
-			<IncludedEvents>
-				<Event Id="4237055289" Name="Play_Slash" ObjectPath="\Events\Default Work Unit\Play_Slash" DurationType="OneShot" DurationMin="0.702963" DurationMax="1.388614">
-					<IncludedMemoryFiles>
-						<File Id="340779911" Language="SFX">
-							<ShortName>Swing_NoBlade.wav</ShortName>
-							<Path>SFX/Swing_NoBlade_10C4C929.wem</Path>
-						</File>
-						<File Id="420672267" Language="SFX">
-							<ShortName>Slash.wav</ShortName>
-							<Path>SFX/Slash_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2262980731" Name="Play_SlashEnemy" ObjectPath="\Events\Default Work Unit\Play_SlashEnemy" DurationType="OneShot" DurationMin="1.092439" DurationMax="1.146876">
-					<IncludedMemoryFiles>
-						<File Id="280581571" Language="SFX">
-							<ShortName>EnemyKill_NoSlash.wav</ShortName>
-							<Path>SFX/EnemyKill_NoSlash_10C4C929.wem</Path>
-						</File>
-						<File Id="728367856" Language="SFX">
-							<ShortName>EnemyKill_WithSlash.wav</ShortName>
-							<Path>SFX/EnemyKill_WithSlash_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1020223172" Name="Play_Wind" ObjectPath="\Events\Default Work Unit\Play_Wind" DurationType="OneShot" DurationMin="46.23077" DurationMax="46.23077">
-					<IncludedMemoryFiles>
-						<File Id="440695712" Language="SFX">
-							<ShortName>WindyAmbience.wav</ShortName>
-							<Path>SFX/WindyAmbience_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2868363229" Name="Stage_Music" ObjectPath="\Events\Default Work Unit\Stage_Music" DurationType="Infinite"/>
-			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

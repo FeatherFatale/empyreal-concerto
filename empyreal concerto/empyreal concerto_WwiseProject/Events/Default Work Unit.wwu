@@ -14,39 +14,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Slash" ID="{89DC25B5-75DC-4E72-A1E8-70697430A1E6}">
-					<ChildrenList>
-						<Action Name="" ID="{368D7ADD-1311-4D71-B0F8-016F94E18A47}" ShortID="750715497">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sword_Slash" ID="{A6E885AD-6B16-4ECE-882D-66C02A050479}" WorkUnitID="{AC7379C0-38B6-4EDF-979E-E74800D346C4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SlashEnemy" ID="{BB8B8A81-6BCE-49D1-8065-3041F1A046C6}">
-					<ChildrenList>
-						<Action Name="" ID="{D5EA8F7D-DF4E-48AB-BCF6-534B0BD749AE}" ShortID="1015187504">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sword_SlashEnemy" ID="{36653D63-65A7-4017-BD51-D0572F795110}" WorkUnitID="{AC7379C0-38B6-4EDF-979E-E74800D346C4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Wind" ID="{A42674A1-C527-4527-86AC-2F137CCDB0F5}">
-					<ChildrenList>
-						<Action Name="" ID="{14B5D56A-AEA6-42F8-9D87-CD90BF772C46}" ShortID="238502947">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WindyAmbience" ID="{E2023915-9F27-4C08-8BF0-E6AA16D9793A}" WorkUnitID="{AC7379C0-38B6-4EDF-979E-E74800D346C4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
