@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1020223172	Play_Wind			\Default Work Unit\Play_Wind	
+	2262980731	Play_SlashEnemy			\Default Work Unit\Play_SlashEnemy	
+	2868363229	Stage_Music			\Default Work Unit\Stage_Music	
+	4237055289	Play_Slash			\Default Work Unit\Play_Slash	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	280581571	EnemyKill_NoSlash	Y:\Documents\GitHub\empyreal-concerto\empyreal concerto\empyreal concerto_WwiseProject\.cache\Mac\SFX\EnemyKill_NoSlash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slash\Sword_SlashEnemy\EnemyKill_NoSlash		212372
+	340779911	Swing_NoBlade	Y:\Documents\GitHub\empyreal-concerto\empyreal concerto\empyreal concerto_WwiseProject\.cache\Mac\SFX\Swing_NoBlade_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slash\Sword_Slash\Swing_NoBlade		266832
+	420672267	Slash	Y:\Documents\GitHub\empyreal-concerto\empyreal concerto\empyreal concerto_WwiseProject\.cache\Mac\SFX\Slash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slash\Sword_Slash\Slash		136680
+	440695712	WindyAmbience	Y:\Documents\GitHub\empyreal-concerto\empyreal concerto\empyreal concerto_WwiseProject\.cache\Mac\SFX\WindyAmbience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\WindyAmbience		8876372
+	728367856	EnemyKill_WithSlash	Y:\Documents\GitHub\empyreal-concerto\empyreal concerto\empyreal concerto_WwiseProject\.cache\Mac\SFX\EnemyKill_WithSlash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slash\Sword_SlashEnemy\EnemyKill_WithSlash	 	219756
+

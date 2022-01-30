@@ -11,6 +11,14 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID PLAY_SLASH = 4237055289U;
+        static const AkUniqueID PLAY_SLASHENEMY = 2262980731U;
+        static const AkUniqueID PLAY_WIND = 1020223172U;
+        static const AkUniqueID STAGE_MUSIC = 2868363229U;
+    } // namespace EVENTS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
